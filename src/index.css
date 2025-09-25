@@ -1,0 +1,46 @@
+:root {
+    /* COLORS */
+    --color-violet: #a445ed;
+    --color-violet-light: #eaceff;
+    --color-violet-dark: #49265fbb;
+    --color-grey: #636363;
+    --color-grey-light: #cfcfcf;
+    --color-grey-dark: #191919;
+    --color-grey-input-dark: #1f1f1f;
+    --color-grey-input-light: #f5f5f5;
+    --color-black: #050505;
+    --color-white: #fff;
+
+
+    /* FONT */
+    --font-mono: "Inconsolata", monospace;
+    --font-sans: "Inter", sans-serif;
+    --font-serif: "Lora", serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.font--mono {
+    font-family: var(--font-mono);
+    
+}
+
+.font--sans-serif {
+    font-family: var(--font-sans);
+    
+}
+
+.font--serif {
+    font-family: var(--font-serif);
+    
+}
+
+
+.is--dark {
+    background-color: var(--color-grey-dark);
+    color: var(--color-white);
+}

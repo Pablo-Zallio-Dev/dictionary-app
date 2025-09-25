@@ -1,0 +1,44 @@
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-block: 3rem;
+  width: 90%;
+ 
+}
+
+.header__book {
+  width: 2rem;
+}
+
+.header__component {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header__component span {
+  border-left: 2px solid var(--color-grey-light);
+  height: 75%;
+}
+
+
+@media screen and (min-width: 767px) {
+
+
+  .header__book {
+    width: 3rem;
+  }
+}
+
+
+@media screen and (min-width: 1023px) {
+  .container__header {
+    max-width: 800px;
+  }
+
+  .header__book {
+    width: 4rem;
+  }
+
+ 
+}
