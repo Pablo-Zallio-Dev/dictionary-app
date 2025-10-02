@@ -1,40 +1,35 @@
 .container__play {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-inline-start: .35rem;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    background-color: var(--color-violet-light);
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0.35rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--color-violet-light);
 }
 
 .container__play--dark {
-    background-color: var(--color-violet-dark);
+  background-color: var(--color-violet-dark);
 }
 
-
-
 @media screen and (min-width: 1023px) {
- 
-    .container__play {
-        width: 5rem;
-        height: 5rem;
-        padding-inline-start: .5rem;
-        cursor: pointer;
-    }
+  .container__play {
+    width: 5rem;
+    height: 5rem;
+    padding-inline-start: 0.5rem;
+    cursor: pointer;
+  }
 
-    .container__play svg {
-         width: 2rem;
-        height: 2rem;
-    }
-    .container__play:hover {
-        background-color: var(--color-violet);
-    }
+  .container__play svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .container__play:hover {
+    background-color: var(--color-violet);
+  }
 
-    .container__play:hover svg path {
-        fill: var(--color-white);
-    }
-
+  .container__play:hover svg path {
+    fill: var(--color-white);
+  }
 }

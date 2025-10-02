@@ -17,7 +17,7 @@ function Header({ showFont, setFont, isDarkMode, setIsDarkMode }: HeaderProps) {
             <section className="container__header">
                 <img className='header__book' src={bookIcon} alt="" />
                 <section className="header__component">
-                    <FontSelector setFont={setFont} showFont={showFont} isDarkMode={isDarkMode}/>
+                    <FontSelector setFont={setFont} showFont={showFont} isDarkMode={isDarkMode} />
                     <span></span>
                     <ThemeSelector isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
                 </section>

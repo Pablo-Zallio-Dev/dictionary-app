@@ -27,20 +27,25 @@
 .font--mono {
     font-family: var(--font-mono);
     
+    padding-block-start: 1.5rem;
 }
 
 .font--sans-serif {
     font-family: var(--font-sans);
     
+    padding-block-start: 1.5rem;
 }
 
 .font--serif {
     font-family: var(--font-serif);
-    
+    padding-block-start: 1.5rem;
 }
 
 
 .is--dark {
     background-color: var(--color-grey-dark);
     color: var(--color-white);
+    min-height: 100dvh;
+    
 }
+

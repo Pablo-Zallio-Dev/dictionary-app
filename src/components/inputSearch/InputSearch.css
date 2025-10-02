@@ -1,42 +1,58 @@
 .container__input {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    padding-block: 1.5rem;
-    padding-inline: 1.75rem;
-    margin: 3rem auto 1rem;
-    background-color: var(--color-grey-input-light);
-    border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-block: 1.5rem;
+  padding-inline: 1.75rem;
+  margin: 3rem auto 1rem;
+  background-color: var(--color-grey-input-light);
+  border-radius: 1rem;
 }
 
 .container__input--dark {
-    background-color: var(--color-grey-input-dark);
-    
+  background-color: var(--color-grey-input-dark);
 }
 
 .container__input input {
-    width: 100%;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    font-size: 1rem;
-    font-family: inherit;
-    color: inherit;
-    font-weight: 600;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 600;
+}
+
+.container__input input:-webkit-autofill,
+.container__input input:-webkit-autofill:hover,
+.container__input input:-webkit-autofill:focus,
+.container__input input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--color-grey-input-light) inset !important;
+}
+
+.container__input--dark input:-webkit-autofill,
+.container__input--dark input:-webkit-autofill:hover,
+.container__input--dark input:-webkit-autofill:focus,
+.container__input--dark input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--color-grey-input-dark) inset !important;
+  -webkit-text-fill-color: var(--color-grey-input-dark) !important;
 }
 
 .input__border {
-    outline: 2px solid var(--color-violet);
+  outline: 2px solid var(--color-violet);
 }
-
 
 .input__border--dark {
-    outline: 2px solid var(--color-white);
+  outline: 2px solid var(--color-white);
 }
 
-
 @media screen and (min-width: 1023px) {
-    .container__input {
-        max-width: 800px;
-    }
+  .container__input {
+    max-width: 800px;
+  }
+
+  .container__input input {
+    font-size: 1.2rem;
+  }
 }

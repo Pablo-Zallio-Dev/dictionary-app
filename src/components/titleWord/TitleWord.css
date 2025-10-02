@@ -1,24 +1,24 @@
 .word__write {
-    font-size: 2rem;
+  font-size: 1rem;
 }
 
 .word__pronunciation {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: var(--color-violet);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-violet);
 }
 @media screen and (min-width: 767px) {
-    .word__write {
-    font-size: 3rem;
-}
+  .word__write {
+    font-size: 1.75rem;
+  }
 }
 
 @media screen and (min-width: 1023px) {
-    .word__write {
-    font-size: 4rem;
-}
+  .word__write {
+    font-size: 2.5rem;
+  }
 
-.word__pronunciation{
+  .word__pronunciation {
     font-size: 2rem;
-}
+  }
 }
