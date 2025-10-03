@@ -14,10 +14,7 @@ function TitleWord({ wordResult }: TitleWordProps) {
     if (wordResult === null) {
         return (
             <>
-                <section className="word">
-                    <h4 className="word__write">Enter the term to search</h4>
-                    <h4 className="word__pronunciation"></h4>
-                </section>
+                
             </>)
     } else {
         return (

@@ -96,13 +96,14 @@ function WordDefinition({ wordResult, wordError }: WordDefinitionProp) {
                   {url}
                 </a>
                 <a href={url} target="_blank">
-                  <img className="icon__link" src={iconLink} alt="" />
+                  <img className="icon__link" src={iconLink} alt="Image Link" />
                 </a>
               </li>
             ))}
           </ul>
         </section>
       )}
+      
     </section>
   );
 }

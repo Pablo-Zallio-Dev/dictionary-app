@@ -36,7 +36,7 @@ function App() {
     <>
       <section>
         <section className={` ${appClassName} ${isDarkMode ? "is--dark" : ""}`}>
-          <h1 className="title__app">Dictionary web app</h1>
+          <h1 className="title__app">Dictionary web</h1>
           <Header
             showFont={currentFont}
             setFont={setCurrentFont}
@@ -60,6 +60,10 @@ function App() {
             wordError={wordError}
           />
           <WordDefinition wordResult={wordResult} wordError={wordError} />
+          
+    <footer className={` ${appClassName} ${isDarkMode ? "is--dark" : ""}`}>
+      <p>Challenge by <a href="https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL" target="_blank">Frontend Mentor developed</a>  by <a href="https://github.com/Pablo-Zallio-Dev" target="_blank">pd-dev</a> </p>
+    </footer>
         </section>
       </section>
     </>

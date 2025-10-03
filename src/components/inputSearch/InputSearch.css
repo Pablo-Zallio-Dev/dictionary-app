@@ -36,7 +36,7 @@
 .container__input--dark input:-webkit-autofill:focus,
 .container__input--dark input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px var(--color-grey-input-dark) inset !important;
-  -webkit-text-fill-color: var(--color-grey-input-dark) !important;
+  -webkit-text-fill-color: var(--color-grey-input-light) !important;
 }
 
 .input__border {
@@ -50,6 +50,10 @@
 @media screen and (min-width: 1023px) {
   .container__input {
     max-width: 800px;
+  }
+
+  .container__input img {
+    cursor: pointer;
   }
 
   .container__input input {

@@ -15,6 +15,7 @@
   align-items: center;
   gap: 1rem;
 }
+
 .header__component span {
   border-left: 2px solid var(--color-grey-light);
   height: 75%;

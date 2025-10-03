@@ -46,7 +46,7 @@ function InputSearch({
           name="word"
           id="word"
           value={inputValue}
-          placeholder="Search for any Word..."
+          placeholder="Search for any word"
           onFocus={activeFocus}
           onBlur={disactiveFocus}
           onChange={inputWord}

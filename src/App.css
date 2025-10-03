@@ -18,3 +18,16 @@
         font-size: 1.75rem;
     }
 }
+
+
+footer {
+    padding-block-end: 2rem;
+    min-height: 0 !important;
+    font-size: .75rem;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+

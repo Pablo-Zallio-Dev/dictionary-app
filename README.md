@@ -1,69 +1,53 @@
-# React + TypeScript + Vite
+# 📖 Dictionary Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Dictionary Web App** es una aplicación web minimalista y rápida diseñada para ayudarte a encontrar al instante el **significado** y la **pronunciación** (en formato de audio) de cualquier término en inglés.
 
-## Expanding the ESLint configuration
+Su objetivo principal es **resolver de manera eficiente la necesidad de buscar la definición de una palabra**, ofreciendo una interfaz limpia y una experiencia de usuario fluida, sin necesidad de instalación.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📸 Captura de Pantalla
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+¡Aquí tienes un vistazo de la aplicación en acción!
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![Captura de pantalla de la Dictionary Web App](src/assets/images/image--readme.jpg)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Tecnologías Utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Este proyecto fue desarrollado utilizando un *stack* moderno y ligero:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **React:** Para construir la interfaz de usuario de forma declarativa y eficiente.
+* **Vite:** Como *bundler* ultrarrápido para el entorno de desarrollo y la construcción final.
+* **CSS:** Para el diseño y la estilización.
+
+---
+
+## 💻 Guía de Uso (¡Sin Instalación!)
+
+Al ser una aplicación web, la forma de usarla es simple y **no requiere ningún tipo de instalación** local ni dependencias.
+
+1.  **Accede a la Aplicación:** Visita la URL de la aplicación [Dictionary Web](https://dictionary-app-one-gamma.vercel.app/).
+2.  **Busca la Palabra:** En el campo de búsqueda, escribe la palabra en inglés cuyo significado deseas conocer.
+3.  **Obtén Resultados:** Pulsa `Enter` o haz clic en el botón de búsqueda. La aplicación mostrará:
+    * La **definición** o definiciones del término.
+    * Un **reproductor de audio** para escuchar la pronunciación correcta.
+
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la **Licencia [MIT License]**. Consulta el archivo `LICENSE` para más detalles.
+
+
+---
+
+## 📧 Contacto
+
+* **Autor:** PD - Developer
+* **GitHub:** [PD - Dev](https://github.com/Pablo-Zallio-Dev)
