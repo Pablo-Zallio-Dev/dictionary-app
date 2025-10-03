@@ -2,52 +2,50 @@
 
 ---
 
-## 🚀 Descripción del Proyecto
+## 🚀 Project Description
 
-**Dictionary Web App** es una aplicación web minimalista y rápida diseñada para ayudarte a encontrar al instante el **significado** y la **pronunciación** (en formato de audio) de cualquier término en inglés.
+**Dictionary Web App** is a minimalist and fast web application designed to help you instantly find the **meaning** and **pronunciation** (in audio format) of any English term.
 
-Su objetivo principal es **resolver de manera eficiente la necesidad de buscar la definición de una palabra**, ofreciendo una interfaz limpia y una experiencia de usuario fluida, sin necesidad de instalación.
-
----
----
-
-## 📸 Captura de Pantalla
-
-¡Aquí tienes un vistazo de la aplicación en acción!
-
-![Captura de pantalla de la Dictionary Web App](src/assets/images/image--readme.jpg)
-
-## ✨ Tecnologías Utilizadas
-
-Este proyecto fue desarrollado utilizando un *stack* moderno y ligero:
-
-* **React:** Para construir la interfaz de usuario de forma declarativa y eficiente.
-* **Vite:** Como *bundler* ultrarrápido para el entorno de desarrollo y la construcción final.
-* **CSS:** Para el diseño y la estilización.
+Its main goal is to **efficiently solve the need to look up a word's definition**, offering a clean interface and a fluid user experience, without requiring any installation.
 
 ---
+---
 
-## 💻 Guía de Uso (¡Sin Instalación!)
+## 📸 Screenshot
 
-Al ser una aplicación web, la forma de usarla es simple y **no requiere ningún tipo de instalación** local ni dependencias.
+Here's a look at the application in action!
 
-1.  **Accede a la Aplicación:** Visita la URL de la aplicación [Dictionary Web](https://dictionary-app-one-gamma.vercel.app/).
-2.  **Busca la Palabra:** En el campo de búsqueda, escribe la palabra en inglés cuyo significado deseas conocer.
-3.  **Obtén Resultados:** Pulsa `Enter` o haz clic en el botón de búsqueda. La aplicación mostrará:
-    * La **definición** o definiciones del término.
-    * Un **reproductor de audio** para escuchar la pronunciación correcta.
+![Screenshot of the Dictionary Web App](src/assets/images/image--readme.jpg)
 
+## ✨ Technologies Used
+
+This project was developed using a modern and lightweight *stack*:
+
+* **React:** For building the user interface declaratively and efficiently.
+* **Vite:** As an ultrafast *bundler* for the development environment and final build.
+* **CSS:** For design and styling.
 
 ---
 
-## 📄 Licencia
+## 💻 Usage Guide (No Installation Required!)
 
-Este proyecto está bajo la **Licencia [MIT License]**. Consulta el archivo `LICENSE` para más detalles.
+As a web application, the way to use it is simple and **does not require any kind of** local **installation** or dependencies.
 
+1. **Access the Application:** Visit the application URL [Dictionary Web](https://dictionary-app-one-gamma.vercel.app/).
+2. **Search for the Word:** In the search field, type the English word whose meaning you want to know.
+3. **Get Results:** Press `Enter` or click the search button. The application will display:
+    * The **definition** or definitions of the term.
+    * An **audio player** to hear the correct pronunciation.
 
 ---
 
-## 📧 Contacto
+## 📄 License
 
-* **Autor:** PD - Developer
+This project is under the **[MIT License]**. See the `LICENSE` file for more details.
+
+---
+
+## 📧 Contact
+
+* **Author:** PD - Developer
 * **GitHub:** [PD - Dev](https://github.com/Pablo-Zallio-Dev)
